@@ -9,7 +9,7 @@ const carApi = axios.create({
 });
 
 class CarService {
-  // ------------------- Get All Cars -------------------
+  // ------------------- Get All Cars  --------------------------
   async getAllCars(params) {
     try {
       const res = await carApi.get("/", { params });
