@@ -17,7 +17,7 @@ const CarDetail = () => {
       console.log("ID:", id);
 
       const response = await axios.get(
-        `http://localhost:5001/api/v1/cars/${id}`,
+        `http://carpro.maktab16.uz/api/v1/cars/${id}`,
       );
 
       console.log("API response:", response.data);

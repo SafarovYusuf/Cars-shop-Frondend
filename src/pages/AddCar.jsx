@@ -46,7 +46,7 @@ function AddCar({ show, setShow, onCarAdded }) {
       };
 
       const response = await axios.post(
-        "http://localhost:5001/api/v1/cars",
+        "http://carpro.maktab16.uz/api/v1/cars",
         newCar,
       );
 

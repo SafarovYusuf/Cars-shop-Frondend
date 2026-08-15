@@ -1,7 +1,7 @@
 // carApi.js
 import axios from "axios";
 
-const baseDomain = "http://localhost:5001/api/v1/cars";
+const baseDomain = "http://carpro.maktab16.uz/api/v1/cars";
 
 const carApi = axios.create({
   baseURL: baseDomain,

@@ -24,7 +24,7 @@ const AllCars = () => {
   const getAllCars = async () => {
     try {
       setLoading(true);
-      const response = await axios.get("http://localhost:5001/api/v1/cars");
+      const response = await axios.get("http://carpro.maktab16.uz/api/v1/cars");
       setCars(response.data.data);
 
       if (!toastShown.current) {
